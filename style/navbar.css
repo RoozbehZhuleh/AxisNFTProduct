@@ -1,0 +1,119 @@
+#navbar {
+    min-height: 5vh;
+    position: sticky;
+    top: 0rem;
+    z-index: 2;
+    background-image: linear-gradient(
+      90deg,
+      var(--dark-color) 0%,
+      var(--primary-color) 75%
+    );
+    border-block-end: 0.1rem solid var(--secondary-background-color);
+    background: transparent;
+  }
+  
+  .navbar__logo img {
+    max-height: 8rem;
+    margin: 0.5rem 0;
+  }
+  
+  .navbar__wrapper {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navbar__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar__menu--item {
+    color: var(--light-color);
+    cursor: pointer;
+    margin-inline-start: 1rem;
+    margin-inline-end: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .navbar__menu--item i {
+    margin-inline-start: 0.8rem;
+    font-size: 1.5rem;
+  }
+  
+  .navbar__search {
+    color: var(--light-color);
+    margin-inline-start: 2rem;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-inline-end: 3rem;
+  }
+  
+  .navbar__wallet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn__wallet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn__wallet > * {
+    margin: 0 0.5rem 0 0;
+  }
+  
+  .navbar--modes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navbar__button--light,
+  .navbar__button--light {
+    border: none;
+  }
+  
+  .navbar--modes > * {
+    padding: 1rem;
+    margin-inline-start: 0.5rem;
+    height: 4rem;
+    background-color: var(--navbar-btn-color);
+    cursor: pointer;
+    border-radius: 20%;
+  }
+  
+  .rp-menu {
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    font-size: 3rem;
+    display: none;
+  }
+  
+  .rp-menu i {
+    color: var(--light-color);
+  }
+  
+  @media (max-width: 60rem) {
+    .rp-menu {
+      display: block;
+    }
+  
+    .navbar__menu {
+      display: none;
+    }
+  }
+  

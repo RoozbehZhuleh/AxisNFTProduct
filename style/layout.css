@@ -54,6 +54,7 @@ body {
     var(--dark-color) 0%,
     var(--primary-color) 75%
   );
+  
 }
 
 button {
