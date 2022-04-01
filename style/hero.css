@@ -1,0 +1,144 @@
+.hero__wrapper{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: 5rem;
+width: 100%;
+height: 100%;
+}
+
+.hero__item--left{
+    width: 50%;
+}
+
+.hero__item--left img{
+    width: 80%;
+    border-radius: 1rem;
+}
+
+.hero__item--right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    height:100%;
+}
+
+
+.item--right__title{
+width: 90%;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+}
+
+
+.item--right__title h2{
+    font-size: var(--font-l);
+    color: var(--font-primary-color);
+    margin: 1rem 0;
+    width: 90%;
+}
+
+.item--right__more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 2rem 0;
+}
+
+.likes-and-watches{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 22rem;
+    font-size: var(--font-xs)
+}
+
+.likes {
+    color: var(--font-primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0.5rem 0.8rem;
+    position: relative;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    border-radius: 2rem;
+    
+    
+  }
+  
+  .likes i {
+    color: var(--font-primary-color);
+    margin: 0 0.5rem 0 0;
+  }
+
+  .watches{
+    color: var(--font-primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0.5rem 0.8rem;
+    position: relative;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    border-radius: 2rem;
+    margin: 0 1rem 0 0;
+  }
+
+  .watches i {
+    color: var(--font-primary-color);
+    margin: 0 0.5rem 0 0;
+  }
+
+
+
+
+.share-and-more{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 22rem;
+}
+
+.item--right__avatars{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.owner{
+    background-color: var(--card-background-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 2rem 0 0;
+    padding: 0.8rem;
+    border-radius: var(--card-radius);
+    width: 50%;
+}
+    
+
+.owner img{
+    height: var(--avatar-size);
+    border-radius: var(--avatar-radius);
+}
+
+.creator{
+    background-color: var(--card-background-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    padding: 0.8rem;
+    border-radius: var(--card-radius);
+    width: 50%
+}
+
+.creator img{
+    height: var(--avatar-size);
+    border-radius: var(--avatar-radius);
+    
+}

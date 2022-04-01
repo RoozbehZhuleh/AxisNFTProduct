@@ -13,17 +13,22 @@
   --accent-color: rgb(110, 64, 219);
   --navbar-btn-color: rgba(52, 52, 68);
   --light-color: #f3f3f3;
+  --font-primary-color: #f3f3f3;
   --font-accent-color: #808080;
   --card-background-color: rgb(76, 70, 87);
   --secondary-background-color: rgb(49, 37, 71);
   --light-font-color: #f3f3f3;
   --login-primary-background-color: rgba(25, 20, 65%);
   --login-secondary-background-color: rgba(17, 17, 19, 50%);
+  --font-xs:1.2rem;
   --font-s: 1.5rem;
   --font-m: 2rem;
   --font-l: 3rem;
   --font-xl: 4rem;
   --font-xxl: 7rem; 
+  --avatar-size: 7rem;
+  --avatar-radius: 2rem;
+  --card-radius: 1.5rem;
 }
 
 .light-mode {
@@ -32,19 +37,28 @@
   --accent-color: rgba(201, 20, 20, 0.384);
   --navbar-btn-color: rgba(52, 52, 68);
   --light-color: #575757;
+  --font-primary-color: #040303;
   --font-accent-color: #363636;
   --card-background-color: rgba(251, 255, 0, 0.74);
   --secondary-background-color: rgba(68, 20, 201, 0.384);
   --light-font-color: #555555;
   --login-primary-background-color: rgba(25, 20, 65%);
   --login-secondary-background-color: rgba(17, 17, 19, 50%);
+  --font-s: 1.5rem;
+  --font-m: 2rem;
+  --font-l: 3rem;
+  --font-xl: 4rem;
+  --font-xxl: 7rem;
+  --avatar-size: 7rem;
+  --avatar-radius: 1.5rem;
+  --card-radius: 1.5rem;
 }
 
 html {
   font-size: 62.5%;
   font-family: "montserrat", "Helvetica Neue", "Helvetica";
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 body {
@@ -55,6 +69,13 @@ body {
     var(--primary-color) 75%
   );
   
+}
+
+header{
+  background-image: url(../assets/product\ page/bg.jpg);
+  background-repeat: no-repeat;
+  height: 30vh;
+  border-block-end: 0.1rem solid var(--secondary-background-color);
 }
 
 button {
@@ -120,24 +141,7 @@ a {
   font-family: inherit;
 }
 
-.likes {
-  color: var(--light-color);
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  padding: 1rem 1rem;
-  position: relative;
-  top: 0.5rem;
-  cursor: pointer;
-  background-color: var(--dark-color);
-  border-radius: 1rem;
-  max-width: 8rem;
-}
 
-.likes i {
-  color: red;
-  margin: 0 0.5rem 0 0;
-}
 
 @keyframes rabbit {
   0% {

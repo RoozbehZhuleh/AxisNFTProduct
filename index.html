@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="product.css">
     <script src="script.js"></script>
 </head>
@@ -40,13 +41,86 @@
 
         <section id="item-details">
             <div class="container">
-                <div class="item__title">
-                    <div><h1>Item Details 1</h1></div>
-            <p><a href="#">Home</a> / <a href="#">Explore</a> / <a href="#">Item Details 1</a></p>
+                <div class="item__wrapper">
+                    <div class="details__title"><h1>Item Details 1</h1></div>
+            <p><a href="#" class="details__link--1">Home</a> / <a href="#" class="details__link--2">Explore</a> / <a href="#" class="details__link--3">Item Details 1</a></p>
                 </div>
             </div>
-            
         </section>
     </header>
+
+    <!-- HERO -->
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero__wrapper">
+                <div class="hero__item--left">
+                    <img src="./assets/product page/item1.jpg" alt="item-1">
+                </div>
+                <div class="hero__item--right">
+                    <div class="item--right__title">
+                        <h2>"The Fantasy Flower Illustration"</h2>
+                    </div>
+                    <div class="item--right__more">
+                        <div class="likes-and-watches">
+                            <div class="watches">
+                                <i class="fa-solid fa-eye"></i>
+                                <p>225</p>
+                            </div>
+                            <div class="likes">
+                                <i class="fa-regular fa-heart"></i>
+                                <p>132</p>
+                            </div>
+                        </div>
+                        <div class="share-and-more">
+                            <div class="share">
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                            <div class="more">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="item--right__avatars">
+                        <div class="owner">
+                            <img src="./assets/axies-images/04_Top Seller/avt-8.jpg" alt="avatar">
+                            <div class="owner__details">
+                                <p>Owned by</p>
+                                <h4>Ralph Galloway</h4>
+                            </div>
+                        </div>
+                        <div class="creator">
+                            <img src="./assets/axies-images/04_Top Seller/avt-2.jpg" alt="avatar">
+                            <div class="creator__details">
+                                <p>created by</p>
+                                <h4>Freddie Carpenter</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item__text">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, necessitatibus quisquam? Natus mollitia sapiente at consectetur. Sint accusantium distinctio ea culpa eveniet suscipit illum nam, quod omnis molestiae numquam magnam.</p>
+                    </div>
+                    <div class="bid__wrapper">
+                        <div class="current-bid">
+                            <h4>Current bid</h4>
+                            <div class="bid-price">
+                                <h3>4.89 ETH</h3>
+                                <h4> = $12.246</h4>
+                            </div>
+                        </div>
+                        <div class="countdown">
+                            <h4>Countdown</h4>
+                            <h3>4 : 19 : 39 : 48</h3>
+                        </div>
+                    </div>
+                    <button class>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <p> Place a bid</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
