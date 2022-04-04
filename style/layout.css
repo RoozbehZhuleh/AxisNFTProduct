@@ -130,10 +130,14 @@ a {
 }
 
 .btn__long{
-  padding: 1rem 100%;
+  padding: 1rem ;
   background-color: transparent;
   border: 1px solid var(--light-color);
   color: var(--font-primary-color);
+}
+
+.btn__long:hover{
+  background-color: var(--accent-color);
 }
 
 .btn__primary:hover {

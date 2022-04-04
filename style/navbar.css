@@ -38,6 +38,11 @@
   .navbar__menu--item i {
     margin-inline-start: 0.8rem;
     font-size: 1.5rem;
+    transition: all 0.2s linear;
+  }
+
+  .navbar__menu--item:hover i{
+    transform: rotate(180deg);
   }
   
   .navbar__search {

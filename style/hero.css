@@ -9,7 +9,7 @@ height: 40%;
 }
 
 .hero__item--left{
-    width: 50%;
+    width: 80rem;
     display: flex;
     justify-content: flex-start;
 }
@@ -17,6 +17,7 @@ height: 40%;
 .hero__item--left img{
     width: 80%;
     border-radius: 1rem;
+    transition: all 0.2s linear;
 }
 
 .hero__item--right{
@@ -197,7 +198,7 @@ text-align: center;
 
 .item__text{
     color: var(--font-accent-color);
-    width: 80%;
+    width: 90%;
     padding: 2rem 0;
 }
 
@@ -256,8 +257,8 @@ text-align: center;
     color: var(--font-primary-color);
 }
 
-.long-btn{
-    width: 39%;
+.bid-btn{
+    width: 90%;
     margin: 2rem 0;
 }
 
@@ -265,6 +266,7 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
   .btn__long p{

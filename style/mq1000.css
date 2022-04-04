@@ -1,0 +1,12 @@
+@media (max-width: 1000px) {
+    
+    
+    .auctions__items{
+        flex-direction: column;
+    }
+
+
+    .auctions__item{
+        width: 80%;
+    }
+}
