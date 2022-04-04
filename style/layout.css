@@ -45,6 +45,7 @@
   --light-font-color: #555555;
   --login-primary-background-color: rgba(25, 20, 65%);
   --login-secondary-background-color: rgba(17, 17, 19, 50%);
+  --font-xs:1.2rem;
   --font-s: 1.5rem;
   --font-m: 2rem;
   --font-l: 3rem;
