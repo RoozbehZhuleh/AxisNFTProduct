@@ -1,7 +1,5 @@
 #navbar {
     min-height: 5vh;
-    position: sticky;
-    top: 0rem;
     z-index: 2;
     border-block-end: 0.1rem solid var(--secondary-background-color);
   }
