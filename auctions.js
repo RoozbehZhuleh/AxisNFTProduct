@@ -12,7 +12,9 @@ document.querySelector(".auctions__item--1").addEventListener("click", function(
 
     likesNumber.innerHTML = document.querySelector(".auctions--1--likes").innerHTML;
 
-    bidEth = document.querySelector(".auctions--")
+    countdown.innerHTML = document.querySelector(".item__countdown--1").innerHTML;
+
+    bidEth.innerHTML = document.querySelector(".item--1--eth").innerHTML;
 });
 
 
