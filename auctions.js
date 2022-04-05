@@ -5,7 +5,7 @@ const countdown = document.querySelector(".countdown-timer");
 const bidEth = document.querySelector(".bid-eth");
 
 document.querySelector(".auctions__item--1").addEventListener("click", function(){
-    console.log("hello");
+
     itemTitle.innerHTML = document.querySelector(".auctions--1__title--text").innerHTML;
 
     itemImage.setAttribute("src", "./assets/axies-images/03_Live Auctions/card-item8.jpg");
@@ -18,8 +18,20 @@ document.querySelector(".auctions__item--1").addEventListener("click", function(
 });
 
 
+document.querySelector(".auctions__item--2").addEventListener("click", function(){
 
+    itemTitle.innerHTML = document.querySelector(".auctions--2__title--text").innerHTML;
 
-document.querySelector(".item__wrapper--2").addEventListener("click", function(){
+    itemImage.setAttribute("src", "./assets/axies-images/03_Live Auctions/card-item8.jpg");
 
+    likesNumber.innerHTML = document.querySelector(".auctions--2--likes").innerHTML;
+
+    countdown.innerHTML = document.querySelector(".item__countdown--2").innerHTML;
+
+    bidEth.innerHTML = document.querySelector(".item--2--eth").innerHTML;
 });
+
+
+
+
+
