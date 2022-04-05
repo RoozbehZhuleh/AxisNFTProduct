@@ -11,6 +11,8 @@ document.querySelector(".auctions__item--1").addEventListener("click", function(
     itemImage.setAttribute("src", "./assets/axies-images/03_Live Auctions/card-item8.jpg");
 
     likesNumber.innerHTML = document.querySelector(".auctions--1--likes").innerHTML;
+
+    bidEth = document.querySelector(".auctions--")
 });
 
 
