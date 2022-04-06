@@ -32,6 +32,10 @@ document.querySelector(".auctions__item--2").addEventListener("click", function(
 });
 
 
+document.querySelector(".auctions__item--3").addEventListener("click", function(){
+
+});
+
 
 
 
