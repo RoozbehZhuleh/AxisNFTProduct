@@ -55,10 +55,6 @@ header{
 }
 
 
-.navbar__menu__item:hover{
-  color: var(--accent-color);
-}
-
 .navbar__menu__item p{
  letter-spacing:0.1rem
 
