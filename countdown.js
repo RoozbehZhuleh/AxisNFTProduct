@@ -17,8 +17,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.querySelector(".timer1").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.querySelector(".timer1").innerHTML = days + " : " + hours + " : "
+  + minutes + " : " + seconds + "";
 
 }, 1000);
 
@@ -43,8 +43,8 @@ var x2 = setInterval(function() {
   var seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.querySelector(".timer2").innerHTML = days2 + "d " + hours2 + "h "
-  + minutes2 + "m " + seconds2 + "s ";
+  document.querySelector(".timer2").innerHTML = days2 + " : " + hours2 + " : "
+  + minutes2 + " : " + seconds2 + "";
 
 }, 1000);
 
@@ -69,8 +69,8 @@ var x3 = setInterval(function() {
   var seconds3 = Math.floor((distance3 % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.querySelector(".timer3").innerHTML = days3 + "d " + hours3 + "h "
-  + minutes3 + "m " + seconds3 + "s ";
+  document.querySelector(".timer3").innerHTML = days3 + " : " + hours3 + " : "
+  + minutes3 + " : " + seconds3 + "";
 
 }, 1000);
 
@@ -95,7 +95,7 @@ var x4 = setInterval(function() {
   var seconds4 = Math.floor((distance4 % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.querySelector(".timer4").innerHTML = days4 + "d " + hours4 + "h "
-  + minutes4 + "m " + seconds4 + "s ";
+  document.querySelector(".timer4").innerHTML = days4 + " : " + hours4 + " : "
+  + minutes4 + " : " + seconds4 + "";
 
 }, 1000);

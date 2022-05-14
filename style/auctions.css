@@ -78,6 +78,13 @@
     transition: all 0.2s linear;
     width: 24%;
   }
+
+  .item__wrapper--1 i,
+  .item__wrapper--2 i,
+  .item__wrapper--3 i,
+  .item__wrapper--4 i{
+    margin: 0 1rem 0 0;
+  }
   
   .auctions__creator__wrapper{
     display: flex;
@@ -188,7 +195,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--dark-color);
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1.5rem;
     border-radius: 2rem;
     margin: 0 0 0.5rem 0;
   }

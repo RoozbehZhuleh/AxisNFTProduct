@@ -12,21 +12,22 @@ document.querySelector(".auctions__item--1").addEventListener("click", function(
 
     likesNumber.innerHTML = document.querySelector(".auctions--1--likes").innerHTML;
 
-    countdown.innerHTML = document.querySelector(".item__countdown--1").innerHTML;
+    countdown.innerHTML = document.querySelector(".timer1").innerHTML;
 
     bidEth.innerHTML = document.querySelector(".item--1--eth").innerHTML;
 });
+
 
 
 document.querySelector(".auctions__item--2").addEventListener("click", function(){
 
     itemTitle.innerHTML = document.querySelector(".auctions--2__title--text").innerHTML;
 
-    itemImage.setAttribute("src", "./assets/axies-images/03_Live Auctions/card-item8.jpg");
+    itemImage.setAttribute("src", "./assets/axies-images/03_Live Auctions/image-box-21.jpg");
 
     likesNumber.innerHTML = document.querySelector(".auctions--2--likes").innerHTML;
 
-    countdown.innerHTML = document.querySelector(".item__countdown--2").innerHTML;
+    countdown.innerHTML = document.querySelector(".timer2").innerHTML;
 
     bidEth.innerHTML = document.querySelector(".item--2--eth").innerHTML;
 });
