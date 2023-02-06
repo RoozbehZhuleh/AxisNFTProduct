@@ -45,25 +45,6 @@
     width: 80%;
   }
   
-  .auctions__items::before {
-    content: url(../assets/axies-images/03_Live\ Auctions/circle-chevron-left-solid.svg);
-    cursor: pointer;
-    display: inline-block;
-    min-width: 5rem;
-    max-width: 10rem;
-    position: relative;
-    left: 1rem;
-  }
-  
-  .auctions__items::after {
-    content: url(../assets/axies-images/03_Live\ Auctions/circle-chevron-right-solid.svg);
-    cursor: pointer;
-    display: inline-block;
-    min-width: 5rem;
-    max-width: 10rem;
-    position: relative;
-    left: -1rem;
-  }
   
   .auctions__item {
     display: flex;

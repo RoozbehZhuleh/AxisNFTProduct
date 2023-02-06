@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px) {
+
+.burger-menu {
+    display: flex;
+}
+    
+.navbar__menu {
+    display: none;
+}
+    
+    
+.auctions__items{
+    flex-direction: column;
+}
+
+
+.auctions__item{
+    width: 80%;
+}
+
+
+}

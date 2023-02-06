@@ -4,6 +4,7 @@ header{
   height: 28rem;
   border-block-end: 0.1rem solid var(--secondary-background-color);
   animation: bannerMovement 30s infinite;
+  z-index: 20;
 }
 
 
@@ -238,29 +239,87 @@ header{
   width: 10%;
 }
 
-.rp-menu {
+/*  */
+.burger-menu {
   cursor: pointer;
-  padding: 1rem 1.5rem;
+  padding: 1rem;
   background-color: var(--primary-color);
   border-radius: 0.5rem;
   font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.burger-menu span {
+  width: 2rem;
+  height: 3px;
+  background-color: var(--light-color);
+}
+
+
+.burger__nav {
+  display: none;
+  background-color: var(--dark-color);
+  font-size: var(--font-ml);
+  color: var(--light-font-color);
+  position: fixed;
+  right: .1px;
+  height: 100%
+}
+
+.burger__links>* {
+  margin: 1rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.burger__links>*:hover::before {
+  content: "";
+  position: absolute;
+  right: 2%;
+  ;
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: var(--light-color);
+}
+
+
+
+.display-block {
+  display: block;
+}
+
+.display-none {
   display: none;
 }
 
-.rp-menu i {
-  color: var(--light-color);
+.active {
+  display: flex;
 }
 
-@media (max-width: 60rem) {
-  .rp-menu {
-    display: block;
-  }
-
-  .navbar__menu {
-    display: none;
-  }
+.rotate {
+  transform: rotate(180deg);
 }
 
+.rotate90 {
+  transform: rotate(90deg);
+}
+
+.rotate45 {
+  transform: rotate(45deg);
+}
+
+.rotate-45 {
+  transform: rotate(-45deg);
+}
+
+
+
+/*  */
 
 
   @keyframes bannerMovement {
